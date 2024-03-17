@@ -1,14 +1,13 @@
 Benchmark                           Mode  Cnt      Score      Error  Units
 
-Benchmarks.merge2                  thrpt   25     69.758 ±    1.266  ops/s
-Benchmarks.streamParJoin2          thrpt   25    208.942 ±    5.264  ops/s
-Benchmarks.listParJoin2            thrpt   25    335.087 ±    8.520  ops/s
+Benchmarks.merge2                  thrpt   25    11.618 ±   0.449  ops/s
+Benchmarks.streamParJoin2          thrpt   25    33.759 ±   1.684  ops/s
+Benchmarks.listParJoin2            thrpt   25    61.138 ±  10.240  ops/s
 
-Benchmarks.listParJoinUnbounded    thrpt   25    356.436 ±   20.128  ops/s
-Benchmarks.streamParJoinUnbounded  thrpt   25     34.768 ±    1.709  ops/s
+Benchmarks.listParJoinUnbounded    thrpt   25   353.082 ±  17.930  ops/s
+Benchmarks.streamParJoinUnbounded  thrpt   25    50.420 ±   2.767  ops/s
 
-Benchmarks.mergeWithEmpty          thrpt   25     15.593 ±    0.592  ops/s
-Benchmarks.streamParJoinWithEmpty  thrpt   25     51.288 ±    3.341  ops/s
-Benchmarks.listParJoinWithEmpty    thrpt   25     78.253 ±    1.625  ops/s
-Benchmarks.noopJoinWithEmpty       thrpt   25  12225.742 ± 1184.086  ops/s
-
+Benchmarks.mergeWithEmpty          thrpt   25    13.940 ±   0.216  ops/s
+Benchmarks.streamParJoinWithEmpty  thrpt   25    38.137 ±   1.698  ops/s
+Benchmarks.listParJoinWithEmpty    thrpt   25    70.051 ±   2.999  ops/s
+Benchmarks.noopJoinWithEmpty       thrpt   25  2864.961 ± 487.548  ops/s
